@@ -90,6 +90,15 @@ Pod::Spec.new do |s|
   #
 
   s.source_files = '*'
+  s.subspec 'Interface' do |inter|
+        inter.source_files = 'Interface/**/*.{h,m}'
+        inter.dependency 'ZXSugarCode/Module'
+end
+
+  s.subspec 'Module' do |mo|
+        mo.source_files = 'Module/Source/**/*.{h,m}'
+# mo.dependency 'ZXSugarCode/Interface'
+end
 
   # s.public_header_files = "Classes/**/*.h"
 
