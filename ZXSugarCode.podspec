@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = '*'
+  # s.source_files = '*.{h.m}'
 
   s.subspec 'Interface' do |inter|
         inter.source_files = 'Interface/**/*.{h,m}'
