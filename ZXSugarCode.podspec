@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZXSugarCode"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "some convenient code for programming"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZXSugarCode/*.{h.m}"
+  s.source_files = '*'
 
   # s.public_header_files = "Classes/**/*.h"
 
